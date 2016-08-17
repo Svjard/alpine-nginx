@@ -29,4 +29,4 @@ ADD root /
 # expose both the HTTP (80) and HTTPS (443) ports
 EXPOSE 80 443
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx"]
